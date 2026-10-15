@@ -1,0 +1,45 @@
+[
+  {
+    "id": "xian-gxj", "name": "西安市工业和信息化局 · 通知公告", "region": "西安市", "enabled": true,
+    "url": "https://gxj.xa.gov.cn/gzdt/tzgg/1.html", "allowed_hosts": ["gxj.xa.gov.cn"],
+    "link_selector": "article.card h3.title a[href]", "article_pattern": "^/gzdt/tzgg/\\d+\\.html$", "body_selector": "#article",
+    "seeds": ["https://gxj.xa.gov.cn/gzdt/tzgg/2098358849019383809.html"]
+  },
+  {
+    "id": "xian-kjj-notices", "name": "西安市科学技术局 · 通知公告", "region": "西安市", "enabled": true,
+    "url": "https://xakj.xa.gov.cn/kjdt/tzgg/1.html", "allowed_hosts": ["xakj.xa.gov.cn"],
+    "link_selector": "article.card h3.title a[href]", "article_pattern": "^/kjdt/tzgg/\\d+\\.html$", "body_selector": "#article"
+  },
+  {
+    "id": "xian-kjj-policies", "name": "西安市科学技术局 · 政策文件", "region": "西安市", "enabled": true,
+    "url": "https://xakj.xa.gov.cn/zwgk/zcwj/1.html", "allowed_hosts": ["xakj.xa.gov.cn"],
+    "link_selector": ".m-lst a[href]", "article_pattern": "^/zwgk/zcwj/(?:bmwj/)?\\d+\\.html$", "body_selector": "#article"
+  },
+  {
+    "id": "shaanxi-gxt", "name": "陕西省工业和信息化厅 · 通知公告", "region": "陕西省", "enabled": true,
+    "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/", "allowed_hosts": ["gxt.shaanxi.gov.cn"],
+    "link_selector": ".content a[href]", "article_pattern": "^/xw/tzgg/\\d{6}/t\\d{8}_\\d+\\.html$", "body_selector": ".TRS_UEDITOR"
+  },
+  {
+    "id": "shaanxi-kjt", "name": "陕西省科学技术厅 · 通知公告", "region": "陕西省", "enabled": true,
+    "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/", "allowed_hosts": ["kjt.shaanxi.gov.cn"],
+    "link_selector": ".cm-news-list.gl-news-list a[href]", "article_pattern": "^/kjdt/tzgg/\\d{6}/t\\d{8}_\\d+\\.html$", "body_selector": ".TRS_UEDITOR"
+  },
+  {
+    "id": "shaanxi-fgw", "name": "陕西省发展和改革委员会 · 公告公示", "region": "陕西省", "enabled": true,
+    "url": "https://sndrc.shaanxi.gov.cn/sy/xwxx/gggg/", "allowed_hosts": ["sndrc.shaanxi.gov.cn"],
+    "link_selector": ".rightList a[href]", "article_pattern": "^/(?:sy/xwxx/gggg|zfxxgk/zc/fgwj/sfzggwwj/\\d{4})/\\d{6}/t\\d{8}_\\d+\\.html$", "body_selector": ".TRS_UEDITOR, .tyxlContent"
+  },
+  {
+    "id": "shaanxi-czt", "name": "陕西省财政厅 · 通知公告", "region": "陕西省", "enabled": true,
+    "url": "https://czt.shaanxi.gov.cn/sy/bmdt/tzgg/", "allowed_hosts": ["czt.shaanxi.gov.cn"],
+    "link_selector": ".cm-news-list.gl-news-list a[href]", "article_pattern": "^/sy/bmdt/tzgg/\\d{6}/t\\d{8}_\\d+\\.html$", "body_selector": ".TRS_UEDITOR"
+  },
+  {
+    "id": "shaanxi-government", "name": "陕西省人民政府 · 政策文件", "region": "陕西省", "enabled": true,
+    "url": "https://www.shaanxi.gov.cn/zfxxgk/", "allowed_hosts": ["www.shaanxi.gov.cn"],
+    "link_selector": ".szf-w1l a[href], .szf_news-list a[href]", "article_pattern": "^/zfxxgk/fdzdgknr/zcwj/.*/t\\d{8}_\\d+\\.html$", "body_selector": ".TRS_UEDITOR"
+  },
+  {"id": "xian-fgw", "name": "西安市发展和改革委员会", "region": "西安市", "enabled": false, "url": "https://fgw.xa.gov.cn/", "reason": "HTTPS 连接核验未通过，待人工复核栏目和证书"},
+  {"id": "xian-finance", "name": "西安市财政局", "region": "西安市", "enabled": false, "url": "https://czj.xa.gov.cn/", "reason": "HTTPS 连接核验未通过，待人工复核栏目和证书"}
+]

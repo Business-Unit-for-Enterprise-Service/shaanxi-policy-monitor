@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shaanxi-policy-monitor"
+version = "0.1.0"
+description = "Official enterprise policy monitoring for Shaanxi, prioritizing Xi'an"
+requires-python = ">=3.11"
+dependencies = [
+  "industry-monitor-core @ git+https://github.com/Business-Unit-for-Platform/industry-monitor-core.git@6468f0532be997e349edd7dfc58d9e91fb5c281d",
+  "beautifulsoup4>=4.12,<5",
+  "requests>=2.32,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+include = ["shaanxi_policy*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
