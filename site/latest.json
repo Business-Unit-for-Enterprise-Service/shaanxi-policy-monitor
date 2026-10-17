@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "report_type": "shaanxi-policy-daily",
-  "date": "2026-10-16",
-  "generated_at": "2026-10-16T12:56:53+08:00",
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T09:24:53+08:00",
   "timezone": "Asia/Shanghai",
   "count_basis": "discovery_and_changes_on_report_date",
   "counts": {
     "discovered": 0,
-    "updated": 0,
+    "updated": 1,
     "baseline": 0,
     "total": 55,
     "urgent": 0,
@@ -27,7 +27,7 @@
       "checked": 5,
       "failed": 0,
       "pending": 0,
-      "last_success_at": "2026-10-16T12:56:53+08:00",
+      "last_success_at": "2026-10-17T09:24:53+08:00",
       "message": "已检查栏目首页；文章按预算轮换复查"
     },
     {
@@ -39,7 +39,7 @@
       "checked": 10,
       "failed": 0,
       "pending": 0,
-      "last_success_at": "2026-10-16T12:56:53+08:00",
+      "last_success_at": "2026-10-17T09:24:53+08:00",
       "message": "已检查栏目首页；文章按预算轮换复查"
     },
     {
@@ -51,7 +51,7 @@
       "checked": 8,
       "failed": 0,
       "pending": 0,
-      "last_success_at": "2026-10-16T12:56:53+08:00",
+      "last_success_at": "2026-10-17T09:24:53+08:00",
       "message": "已检查栏目首页；文章按预算轮换复查"
     },
     {
@@ -139,6 +139,45 @@
   ],
   "policies": [
     {
+      "id": "cf1df14e3a2f0ecb01ab",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2109529833902542850.html",
+      "title": "西安市科学技术局关于2025年度算力服务费补贴项目立项公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-12",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-12",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对2025年度算力服务费补贴拟立项项目予以公示，公示时间为2026年10月12日—10月16日"
+        },
+        {
+          "date": "2026-10-16",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对2025年度算力服务费补贴拟立项项目予以公示，公示时间为2026年10月12日—10月16日"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
+      "last_changed_at": "2026-10-17T09:24:53+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": [
+        "updated"
+      ]
+    },
+    {
       "id": "18c8819e0c88881a0f8d",
       "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2110279543487565825.html",
       "title": "西安市工业和信息化局 关于发布《2026年新产品新技术目录清单（第一期）》的通知",
@@ -158,7 +197,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -204,7 +243,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -237,7 +276,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -266,49 +305,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
-      "last_changed_at": "2026-10-15T21:46:07+08:00",
-      "deadline": {
-        "date": null,
-        "status": "不适用",
-        "evidence": ""
-      },
-      "changes": []
-    },
-    {
-      "id": "cf1df14e3a2f0ecb01ab",
-      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2109529833902542850.html",
-      "title": "西安市科学技术局关于2025年度算力服务费补贴项目立项公示",
-      "source_id": "xian-kjj-notices",
-      "source_name": "西安市科学技术局 · 通知公告",
-      "region": "西安市",
-      "published_date": "2026-10-12",
-      "publication_basis": "页面元数据",
-      "category": "结果公示与认定",
-      "highlights": [],
-      "dates": [
-        {
-          "date": "2026-10-12",
-          "kind": "公示或征求意见",
-          "year_inferred": false,
-          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对2025年度算力服务费补贴拟立项项目予以公示，公示时间为2026年10月12日—10月16日"
-        },
-        {
-          "date": "2026-10-16",
-          "kind": "公示或征求意见",
-          "year_inferred": true,
-          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对2025年度算力服务费补贴拟立项项目予以公示，公示时间为2026年10月12日—10月16日"
-        }
-      ],
-      "attachments": [
-        {
-          "title": "2025年度西安市算力服务费补贴拟立项清单.docx",
-          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/12/202610121420272514440.docx"
-        }
-      ],
-      "snippet_suppressed": false,
-      "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -350,7 +347,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -387,7 +384,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -429,7 +426,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -471,7 +468,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -513,7 +510,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -557,7 +554,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -596,7 +593,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -638,7 +635,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -667,7 +664,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -738,7 +735,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": "2026-09-25",
@@ -766,7 +763,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -793,7 +790,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -819,7 +816,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -845,7 +842,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -871,7 +868,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -898,7 +895,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:49:39+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:49:39+08:00",
       "deadline": {
         "date": null,
@@ -925,7 +922,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:49:39+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:49:39+08:00",
       "deadline": {
         "date": null,
@@ -952,7 +949,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:49:39+08:00",
-      "last_checked_at": "2026-10-16T12:56:53+08:00",
+      "last_checked_at": "2026-10-17T09:24:53+08:00",
       "last_changed_at": "2026-10-15T21:49:39+08:00",
       "deadline": {
         "date": null,
@@ -2038,5 +2035,5 @@
       "changes": []
     }
   ],
-  "report_url": "https://business-unit-for-enterprise-service.github.io/shaanxi-policy-monitor/daily/2026-10-16.html"
+  "report_url": "https://business-unit-for-enterprise-service.github.io/shaanxi-policy-monitor/daily/2026-10-17.html"
 }
