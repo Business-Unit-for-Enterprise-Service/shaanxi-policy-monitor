@@ -156,3 +156,30 @@ def test_legitimate_validation_policy_title_does_not_disable_challenge_checks(mo
     good.payload = good.payload.replace('概念验证中心'.encode(), '概念验证中心验证码'.encode())
     with pytest.raises(FetchError):
         client.fetch(URL, SOURCE)
+
+
+def test_policy_client_retries_transient_connection_errors(monkeypatch):
+    import shaanxi_policy.http as transport
+    calls = []
+    good = article()
+    def flaky(self, url, source, content_types=None):
+        calls.append(url)
+        if len(calls) < 3:
+            raise FetchError("Network/TLS failure: ConnectionError")
+        return good
+    monkeypatch.setattr(transport.SafeClient, "fetch", flaky)
+    monkeypatch.setattr(transport.time, "sleep", lambda seconds: None)
+    assert PolicyClient().fetch(URL, SOURCE) is good
+    assert len(calls) == 3
+
+
+def test_policy_client_does_not_retry_access_challenges(monkeypatch):
+    import shaanxi_policy.http as transport
+    calls = []
+    def blocked(self, url, source, content_types=None):
+        calls.append(url)
+        raise FetchError("Challenge/login page; manual review required")
+    monkeypatch.setattr(transport.SafeClient, "fetch", blocked)
+    with pytest.raises(FetchError, match="Challenge/login"):
+        PolicyClient().fetch(URL, SOURCE)
+    assert len(calls) == 1
