@@ -5,7 +5,7 @@
 - [最新日报](https://business-unit-for-enterprise-service.github.io/shaanxi-policy-monitor/)
 - [采集来源](config/sources.json)：8 个启用栏目，来自西安市工信局、科技局及陕西省工信厅、科技厅、发改委、财政厅、省政府。西安市发改委、财政局暂因 HTTPS 核验问题列为待接入。
 - 每天北京时间 **08:35** 启动采集，**09:05** 由 BidScout 发送政策日报；10:05、11:05 检查漏发并补发。GitHub 定时任务可能延迟，时间为计划时间。
-- 推送使用 `Business-Unit-for-BidScout/crawler` 的独立 `policy-daily.yml` 工作流与已有 `WECOM_WEBHOOK_URL`；本项目不复制或存储机器人凭据。与招采日报使用独立发送记录，每个机器人每个报告日期最多确认发送一次。
+- 推送使用 `Business-Unit-for-BidScout/crawler` 的独立 `policy-daily.yml` 工作流，并且必须与 `Business-Unit-for-Energy-Saving/industry-monitor` 使用同一个企业微信机器人。本项目不复制或存储机器人凭据；需要将 BidScout 仓库的 `WECOM_WEBHOOK_URL` 配置为节能项目所使用的同一 Webhook，GitHub 不会自动同步两个仓库的 Secret。与招采日报使用独立发送记录，每个机器人每个报告日期最多确认发送一次。
 
 ## 报告口径
 
