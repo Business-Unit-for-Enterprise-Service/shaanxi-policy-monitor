@@ -1,0 +1,2261 @@
+{
+  "schema_version": 1,
+  "report_type": "shaanxi-policy-daily",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T14:14:16+08:00",
+  "timezone": "Asia/Shanghai",
+  "count_basis": "discovery_and_changes_on_report_date",
+  "counts": {
+    "discovered": 2,
+    "updated": 0,
+    "baseline": 0,
+    "total": 61,
+    "urgent": 0,
+    "sources": 8,
+    "healthy": 3,
+    "partial": 0,
+    "failed": 5
+  },
+  "coverage": "监测已列明官方栏目的首页及待处理队列；不代表全省全部政策。首次建档不计为当日新政策。",
+  "sources": [
+    {
+      "id": "xian-gxj",
+      "name": "西安市工业和信息化局 · 通知公告",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/1.html",
+      "region": "西安市",
+      "status": "ok",
+      "checked": 8,
+      "failed": 0,
+      "pending": 0,
+      "last_success_at": "2026-10-28T14:14:16+08:00",
+      "message": "已检查栏目首页；文章按预算轮换复查"
+    },
+    {
+      "id": "xian-kjj-notices",
+      "name": "西安市科学技术局 · 通知公告",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/1.html",
+      "region": "西安市",
+      "status": "ok",
+      "checked": 11,
+      "failed": 0,
+      "pending": 0,
+      "last_success_at": "2026-10-28T14:14:16+08:00",
+      "message": "已检查栏目首页；文章按预算轮换复查"
+    },
+    {
+      "id": "xian-kjj-policies",
+      "name": "西安市科学技术局 · 政策文件",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/1.html",
+      "region": "西安市",
+      "status": "ok",
+      "checked": 8,
+      "failed": 0,
+      "pending": 0,
+      "last_success_at": "2026-10-28T14:14:16+08:00",
+      "message": "已检查栏目首页；文章按预算轮换复查"
+    },
+    {
+      "id": "shaanxi-gxt",
+      "name": "陕西省工业和信息化厅 · 通知公告",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/",
+      "region": "陕西省",
+      "status": "failed",
+      "checked": 0,
+      "failed": 0,
+      "pending": 1,
+      "last_success_at": "2026-10-15T21:49:39+08:00",
+      "message": "Network/TLS failure: ConnectionError"
+    },
+    {
+      "id": "shaanxi-kjt",
+      "name": "陕西省科学技术厅 · 通知公告",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/",
+      "region": "陕西省",
+      "status": "failed",
+      "checked": 0,
+      "failed": 0,
+      "pending": 0,
+      "last_success_at": "2026-10-15T21:49:39+08:00",
+      "message": "Network/TLS failure: ConnectionError"
+    },
+    {
+      "id": "shaanxi-fgw",
+      "name": "陕西省发展和改革委员会 · 公告公示",
+      "url": "https://sndrc.shaanxi.gov.cn/sy/xwxx/gggg/",
+      "region": "陕西省",
+      "status": "failed",
+      "checked": 0,
+      "failed": 0,
+      "pending": 0,
+      "last_success_at": "2026-10-15T21:49:39+08:00",
+      "message": "Network/TLS failure: ConnectionError"
+    },
+    {
+      "id": "shaanxi-czt",
+      "name": "陕西省财政厅 · 通知公告",
+      "url": "https://czt.shaanxi.gov.cn/sy/bmdt/tzgg/",
+      "region": "陕西省",
+      "status": "failed",
+      "checked": 0,
+      "failed": 0,
+      "pending": 0,
+      "last_success_at": "2026-10-15T21:49:39+08:00",
+      "message": "Network/TLS failure: ConnectionError"
+    },
+    {
+      "id": "shaanxi-government",
+      "name": "陕西省人民政府 · 政策文件",
+      "url": "https://www.shaanxi.gov.cn/zfxxgk/",
+      "region": "陕西省",
+      "status": "failed",
+      "checked": 0,
+      "failed": 0,
+      "pending": 0,
+      "last_success_at": "2026-10-15T21:49:39+08:00",
+      "message": "Network/TLS failure: ConnectionError"
+    },
+    {
+      "id": "xian-fgw",
+      "name": "西安市发展和改革委员会",
+      "url": "https://fgw.xa.gov.cn/",
+      "region": "西安市",
+      "status": "disabled",
+      "checked": 0,
+      "failed": 0,
+      "pending": 0,
+      "message": "HTTPS 连接核验未通过，待人工复核栏目和证书"
+    },
+    {
+      "id": "xian-finance",
+      "name": "西安市财政局",
+      "url": "https://czj.xa.gov.cn/",
+      "region": "西安市",
+      "status": "disabled",
+      "checked": 0,
+      "failed": 0,
+      "pending": 0,
+      "message": "HTTPS 连接核验未通过，待人工复核栏目和证书"
+    }
+  ],
+  "policies": [
+    {
+      "id": "a18601efafa7229036ad",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2115259433601331202.html",
+      "title": "西安市工业和信息化局 西 安 市 财 政 局 关于做好第三批工业企业研发机构 申报工作的通知",
+      "source_id": "xian-gxj",
+      "source_name": "西安市工业和信息化局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-28",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "一、工业企业研发机构申报资料、申报条件、支持政策、申报程序及有关要求按照省工信厅文件执行，相关申报资料电子版请查阅省工信厅网站下载（网址：https://gxt.shaanxi.gov.cn/cyfz/kjdt/202610/t20261023_3706304.html）"
+      ],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "《陕西省工业和信息化厅 陕西省财政厅关于组织申报第三批工业企业研发机构的通知》.pdf",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/10/28/202610280947154854508.pdf"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-28T14:14:16+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-28T14:14:16+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": [
+        "discovered"
+      ]
+    },
+    {
+      "id": "666a96e5525bebc3cb9c",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2115007899228033025.html",
+      "title": "关于聘请会计师事务所对西安市中小企业 数字化转型发展一站式服务系统建设项目 开展决算审计工作的通知",
+      "source_id": "xian-gxj",
+      "source_name": "西安市工业和信息化局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-27",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-28T14:14:16+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-28T14:14:16+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": [
+        "discovered"
+      ]
+    },
+    {
+      "id": "e099c01f570c00439046",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2114566489889652738.html",
+      "title": "关于2026年第五批创新挑战常态化企业技术需求解决方案的征集通知",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-26",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "（二）对合作成功的成果转化项目，通过技术交易信用贷等多种形式给予金融支持，对符合条件的项目按政策予以贴息"
+      ],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "附件1：创新挑战常态化企业技术需求详表（第五批）.rar",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/26/202610261153158486280.rar"
+        },
+        {
+          "title": "附件2：挑战声明.docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/26/202610261153272162259.docx"
+        },
+        {
+          "title": "附件3：创新挑战报名表.docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/26/202610261153382592891.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-26T13:14:05+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-26T13:14:05+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "c95e0e02669b054c387e",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2113181218544603138.html",
+      "title": "西安市工业和信息化局 关于开展2026年中小企业数字化转型城市试点 专项资金中小企业数字化改造项目（第五批） 申报工作的通知",
+      "source_id": "xian-gxj",
+      "source_name": "西安市工业和信息化局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-22",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "核算奖补的数字化改造投入主要包括与数字化改造相关的软件购买、软件开发、云服务及必要的实施服务支出，网关、路由、传感器、工业控制系统、防火墙等必要的数据采集传输、工业控制、信息安全、工业识别设备支出；按照合同、不含税发票额、付款凭证三者最小金额核定项目投入费用",
+        "（一）申报单位具备独立法人资格，且注册地和项目实施地均为西安市区域内（含西咸新区），属于制造业中小企业（划型标准：上年度营业收入4亿元以下，或从业人员1000人以下）"
+      ],
+      "dates": [
+        {
+          "date": "2024-10-18",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "1.自主转型：与数字化转型服务商签订数字化改造项目合同，签订时间不早于2024年10月18日，在2026年10月25日前已完成改造且中小企业数字化水平自评达到二级及以上"
+        },
+        {
+          "date": "2026-10-25",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "1.自主转型：与数字化转型服务商签订数字化改造项目合同，签订时间不早于2024年10月18日，在2026年10月25日前已完成改造且中小企业数字化水平自评达到二级及以上"
+        },
+        {
+          "date": "2026-10-30",
+          "kind": "企业申报截止",
+          "year_inferred": true,
+          "evidence": "申报单位须于10月30日前将申报资料提交至辖区工业和信息化主管部门 （ 链式转型和自主转型项目均需报送至辖区主管部门 ）"
+        },
+        {
+          "date": "2026-11-03",
+          "kind": "企业申报截止",
+          "year_inferred": true,
+          "evidence": "申报单位须于11月3日前通过“数转系统”提交评测验收申请，根据系统提示填报提交相关资料"
+        },
+        {
+          "date": "2026-11-03",
+          "kind": "主管部门报送",
+          "year_inferred": true,
+          "evidence": "区县、开发区工信主管部门对辖区内企业报送资料进行形式审查（重点核查项目真实性、材料完整性及合规性），11月3日之前正式行文（含汇总表，见附件2）推荐报送至市工信局"
+        },
+        {
+          "date": "2026-11-04",
+          "kind": "补正截止",
+          "year_inferred": true,
+          "evidence": "11月4日—6日，市工信局组织改造项目审核，并向申报单位反馈修改意见"
+        },
+        {
+          "date": "2026-11-10",
+          "kind": "补正截止",
+          "year_inferred": true,
+          "evidence": "申报单位须于11月10日前完成资料修改并报送市工信局"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "1.“数转系统”操作指引.docx",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/10/22/202610221607571265504.docx"
+        },
+        {
+          "title": "2.区县、开发区项目申报推荐资料清单.docx",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/10/22/202610221608070690430.docx"
+        },
+        {
+          "title": "3.区县、开发区工信主管联系方式（数转项目）.docx",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/10/22/202610221608183346242.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-23T13:17:35+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-23T13:17:35+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "存在多个日期"
+      },
+      "changes": []
+    },
+    {
+      "id": "d00918b5b674ddac9307",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2112796563576242178.html",
+      "title": "关于2026年第23批科技金融业务推荐企业名单的公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-21",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-22T13:18:45+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-22T13:18:45+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "31962198d6eeb6315e32",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2112353531441758210.html",
+      "title": "关于2026年第22批科技金融业务推荐企业名单的公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-20",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-20T13:12:56+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-20T13:12:56+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "18c8819e0c88881a0f8d",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2110279543487565825.html",
+      "title": "西安市工业和信息化局 关于发布《2026年新产品新技术目录清单（第一期）》的通知",
+      "source_id": "xian-gxj",
+      "source_name": "西安市工业和信息化局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-14",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "附件：2026年新产品新技术目录清单（第一期）.pdf",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/10/14/202610141559118299702.pdf"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "12e765fc06e584edd774",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2110278875496878082.html",
+      "title": "西安市工业和信息化局 关于征集《先进技术产品转化应用目录 （2026年度）》技术产品的通知",
+      "source_id": "xian-gxj",
+      "source_name": "西安市工业和信息化局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-14",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "其中，企业类申报主体为在中华人民共和国境内注册，具有独立法人资格，具有较强的经济实力、技术研发和融合创新能力，且近2年信用记录良好"
+      ],
+      "dates": [
+        {
+          "date": "2026-11-13",
+          "kind": "主管部门报送",
+          "year_inferred": true,
+          "evidence": "（三）请各区县、西咸新区、各开发区工业和信息化主管部门做好辖区内企业征集、审核、推荐工作，出具书面推荐意见，于11月13日前将项目纸质版申报材料（一式3份，需在技术产品信息采集表报送部门意见处加盖公章）、企业导出数据包的光盘（1份）报送市工信局技术进步处，可编辑电子版《技术产品信息汇总表》发送至邮箱：jishu2025@163.com"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "附件：1.技术产品信息采集表.xls",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/10/14/202610141556176569835.xls"
+        },
+        {
+          "title": "2.技术产品信息审查意见表.xls",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/10/14/202610141556285184707.xls"
+        },
+        {
+          "title": "3.技术产品信息汇总表.xls",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/10/14/202610141556427186484.xls"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "d44ef3333367b8b523b9",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2110277453281804289.html",
+      "title": "西安市工业和信息化局 西安市财政局 关于做好第二批校企协同攻关“百团”计划 项目申报工作的通知",
+      "source_id": "xian-gxj",
+      "source_name": "西安市工业和信息化局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-14",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "一、申报内容、申报条件、相关要求及附表资料请查阅省工信厅官方网站：https://gxt.shaanxi.gov.cn/cyfz/kjdt/202610/t20261009_3701870.html"
+      ],
+      "dates": [
+        {
+          "date": "2026-10-26",
+          "kind": "主管部门报送",
+          "year_inferred": true,
+          "evidence": "三、请各区县、西咸新区、各开发区工业和信息化主管部门联合财政部门，做好辖区内企业申报、审核、推荐工作，对项目真实性负责，联合行文于10月26日前将2份推荐文件（含汇总表）和2份企业申报材料（含电子版）报市工信局技术进步处，电子版发送邮箱：jishu2025@163.com"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "6047c0e92646f1688036",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2109582168514723841.html",
+      "title": "西安市科学技术局关于举办2026年西安高校科技成果转化大赛及金牌技术经理人评选活动的通知",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-12",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "2026年西安高校科技成果转化大赛及金牌技术经理人评选方案.doc",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/12/202610121748093289422.doc"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "cf1df14e3a2f0ecb01ab",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2109529833902542850.html",
+      "title": "西安市科学技术局关于2025年度算力服务费补贴项目立项公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-12",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-12",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对2025年度算力服务费补贴拟立项项目予以公示，公示时间为2026年10月12日—10月16日"
+        },
+        {
+          "date": "2026-10-16",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对2025年度算力服务费补贴拟立项项目予以公示，公示时间为2026年10月12日—10月16日"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-17T09:24:53+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "6ecebd0100ec49410606",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2108732947939016705.html",
+      "title": "西安市科学技术局第三批科技成果转化“先投后股”项目立项公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-10",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对拟立项的第三批科技成果转化“先投后股”项目予以公示，公示时间为2026年10月10日至10月15日"
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对拟立项的第三批科技成果转化“先投后股”项目予以公示，公示时间为2026年10月10日至10月15日"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "拟立项第三批科技成果转化“先投后股”项目清单.docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/10/202610100934212381336.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "6611a3ede77d7aefcba0",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2108732396536979458.html",
+      "title": "西安市科学技术局“先投后股”受托管理机构2026年度管理费项目立项公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-10",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，根据2025年度考核结果为优秀的情况，现对西安财金投资管理有限公司承担的“先投后股”受托管理机构2026年度管理费项目拟立项予以公示，公示时间为2026年10月10日至10月15日"
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，根据2025年度考核结果为优秀的情况，现对西安财金投资管理有限公司承担的“先投后股”受托管理机构2026年度管理费项目拟立项予以公示，公示时间为2026年10月10日至10月15日"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "2815e62b001cca922c82",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2108497039518629889.html",
+      "title": "西安市科学技术局关于2026年高校院所科研人员服务企业项目立项公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-09",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对拟立项的2026年高校院所科研人员服务企业项目予以公示，公示时间为2026年10月10日至10月15日"
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对拟立项的2026年高校院所科研人员服务企业项目予以公示，公示时间为2026年10月10日至10月15日"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "2026年高校院所科研人员服务企业项目拟立项清单.docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/09/202610091756504970312.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "7bddadf8339273f2d408",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2108496137345339394.html",
+      "title": "西安市科学技术局关于2026年高校与企业共建的联合科创平台项目立项公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-09",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对拟立项的2026年高校与企业共建的联合科创平台项目予以公示，公示时间为2026年10月10日至10月15日"
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对拟立项的2026年高校与企业共建的联合科创平台项目予以公示，公示时间为2026年10月10日至10月15日"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "2026年高校与企业共建的联合科创平台项目拟立项清单.docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/09/202610091753172042490.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "b22bc0b30d1ef70f10f7",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2108495356866166785.html",
+      "title": "西安市科学技术局关于2026年科研人员、科研团队领办创办企业项目立项公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-09",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对拟立项的2026年科研人员、科研团队领办创办企业项目予以公示，公示时间为2026年10月10日至10月15日"
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对拟立项的2026年科研人员、科研团队领办创办企业项目予以公示，公示时间为2026年10月10日至10月15日"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "2026年科研人员、科研团队领办创办企业项目拟立项清单.docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/10/09/202610091749476563614.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "7194955f041f736e8721",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2108445467900141569.html",
+      "title": "西安市科学技术局关于2026年拟立项企业研发投入奖补项目的公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-10-09",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [
+        "依据《西安市科技计划项目管理办法》有关规定，现对2026年度拟立项的企业研发投入奖补项目予以公示，公示时间为2026年10月10日至10月15日（公示期已到）"
+      ],
+      "dates": [
+        {
+          "date": "2026-10-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对2026年度拟立项的企业研发投入奖补项目予以公示，公示时间为2026年10月10日至10月15日（公示期已到）"
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "依据《西安市科技计划项目管理办法》有关规定，现对2026年度拟立项的企业研发投入奖补项目予以公示，公示时间为2026年10月10日至10月15日（公示期已到）"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-25T13:13:58+08:00",
+      "last_changed_at": "2026-10-20T13:12:56+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "662454640d0f7ba126ef",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2105191117492449281.html",
+      "title": "关于2026年第四批创新挑战常态化企业技术需求解决方案的征集通知",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-09-30",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "（二）对合作成功的成果转化项目，通过技术交易信用贷等多种形式给予金融支持，对符合条件的项目按政策予以贴息"
+      ],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "附件1：创新挑战常态化企业技术需求详表（第四批）.rar",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/09/30/202609301458372371247.rar"
+        },
+        {
+          "title": "附件2：挑战声明.docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/09/30/202609301458506043944.docx"
+        },
+        {
+          "title": "附件3：创新挑战报名表.docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/09/30/202609301459010116590.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "93e4c7da3ede3dd9789a",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2104492035763965953.html",
+      "title": "关于西安市中小企业数字化转型城市试点改造项目第二批通过验收企业的公示",
+      "source_id": "xian-gxj",
+      "source_name": "西安市工业和信息化局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-09-28",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-09-28",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "公示时间：2026年9月28日—2026年10月9日"
+        },
+        {
+          "date": "2026-10-09",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "公示时间：2026年9月28日—2026年10月9日"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "西安市中小企业数字化转型城市试点改造项目第二批通过验收企业名单.pdf",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/09/30/202609301436541034759.pdf"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "37ffeb1917e9aeec0e05",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2103024268439834625.html",
+      "title": "关于公布西安市瞪羚企业认定名单的通知",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-09-24",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "西安市瞪羚企业认定文件.pdf",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/09/24/202609241525347467674.pdf"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-27T13:32:06+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "45c9dc62b84467b87ea6",
+      "url": "https://gxj.xa.gov.cn/gzdt/tzgg/2098358849019383809.html",
+      "title": "西安市工业和信息化局 关于开展2026年中小企业数字化转型城市试点 专项资金中小企业数字化改造项目（第四批） 申报工作的通知",
+      "source_id": "xian-gxj",
+      "source_name": "西安市工业和信息化局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-09-11",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "核算奖补的数字化改造投入主要包括与数字化改造相关的软件购买、软件开发、云服务及必要的实施服务支出，网关、路由、传感器、工业控制系统、防火墙等必要的数据采集传输、工业控制、信息安全、工业识别设备支出；按照合同、不含税发票额、付款凭证三者最小金额核定项目投入费用",
+        "（一）申报单位具备独立法人资格，且注册地和项目实施地均为西安市行政区域内，属于制造业中小企业（划型标准：营业收入4亿元以下，或从业人员1000人以下）"
+      ],
+      "dates": [
+        {
+          "date": "2024-10-18",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "1.自主转型：与数字化转型服务商签订数字化改造项目合同，签订时间不早于2024年10月18日，在2026年9月15日前已完成改造且中小企业数字化水平自评达到二级及以上"
+        },
+        {
+          "date": "2026-09-15",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "1.自主转型：与数字化转型服务商签订数字化改造项目合同，签订时间不早于2024年10月18日，在2026年9月15日前已完成改造且中小企业数字化水平自评达到二级及以上"
+        },
+        {
+          "date": "2026-09-25",
+          "kind": "企业申报截止",
+          "year_inferred": true,
+          "evidence": "申报单位须于9月25日前将申报资料提交至辖区工业和信息化主管部门 （ 链式转型和自主转型项目均需报送至辖区主管部门 ）"
+        },
+        {
+          "date": "2026-09-28",
+          "kind": "主管部门报送",
+          "year_inferred": true,
+          "evidence": "区县、开发区工信主管部门对辖区内企业报送资料进行形式审查（重点核查项目真实性、材料完整性及合规性），9月28日之前正式行文（含汇总表，见附件2）推荐报送至市工信局"
+        },
+        {
+          "date": "2026-10-08",
+          "kind": "补正截止",
+          "year_inferred": true,
+          "evidence": "对于形式审核不通过的改造项目，申报单位须于10月8日前，根据反馈的情况调整或补充资料"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "1.“数转系统”操作指引.docx",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/09/11/202609111830089028293.docx"
+        },
+        {
+          "title": "2.区县、开发区项目申报推荐资料清单.docx",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/09/22/202609221415102556612.docx"
+        },
+        {
+          "title": "3.区县、开发区工信主管联系方式（数转项目）.docx",
+          "url": "https://gxj.xa.gov.cn/web_files/gxj/file/2026/09/24/202609241046206616217.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": "2026-09-25",
+        "status": "已过原文截止日期",
+        "evidence": "申报单位须于9月25日前将申报资料提交至辖区工业和信息化主管部门 （ 链式转型和自主转型项目均需报送至辖区主管部门 ）",
+        "year_inferred": true
+      },
+      "changes": []
+    },
+    {
+      "id": "1ec112f12e68ac8cb1bf",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/2019334040334204930.html",
+      "title": "西安市科技计划项目诚信管理办法",
+      "source_id": "xian-kjj-policies",
+      "source_name": "西安市科学技术局 · 政策文件",
+      "region": "西安市",
+      "published_date": "2026-02-10",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "责任主体是党员或公职人员的，还应根据《中国共产党纪律处分条例》《中华人民共和国公职人员政务处分法》等规定，由有管辖权的单位给予处理或处分；其他适用组织处理或处分的，由有管辖权的机构依规依纪依法给予处理或处分",
+        "第四条 科技计划项目诚信责任主体（以下简称责任主体）是参与本办法第三条所列事项的申报单位、承担单位、服务机构等法人单位，以及申报人员、承担人员、科技专家等自然人"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "af227ac1c277361fa25b",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/2012054435576459266.html",
+      "title": "西安市科技金融服务工作站管理办法",
+      "source_id": "xian-kjj-policies",
+      "source_name": "西安市科学技术局 · 政策文件",
+      "region": "西安市",
+      "published_date": "2026-01-05",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "第二条 市科技局、市财政局负责对全市工作站的建设和发展进行宏观管理和业务指导，负责工作站的认定、授牌、考核和奖励补助等工作",
+        "（一）依托单位应为在我市辖区注册设立的事业单位或独立法人单位；"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "3ca76704d37c010b50de",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/2012049822103662594.html",
+      "title": "西安市技术产权资产证券化（票据化）工作指引",
+      "source_id": "xian-kjj-policies",
+      "source_name": "西安市科学技术局 · 政策文件",
+      "region": "西安市",
+      "published_date": "2026-01-05",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "西安市科技局、市财政局围绕我市重点产业体系，通过补助奖励、风险补偿等政策支持，委托受托管理机构组织相关金融和服务机构对企业技术产权的收益和风险进行结构性重组，构造资产池，并进行必要的信用增级和担保，通过面向资本市场发行证券或者银行间市场发行票据，来拓宽科技型中小企业尤其是民营科技型企业融资渠道，降低融资成本"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "6956b24e889eaf303a47",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/1976535904171888642.html",
+      "title": "西安市科技计划项目验收管理办法",
+      "source_id": "xian-kjj-policies",
+      "source_name": "西安市科学技术局 · 政策文件",
+      "region": "西安市",
+      "published_date": "2025-10-10",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [
+        "第二十六条 服务机构及其工作人员、验收专家在验收工作中出现管理失职、徇私舞弊、接受请托、泄露保密信息、违反回避制度等行为，按照有关规定，对相关责任主体给予处理"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "f5fec4a26c5e8d634d6c",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/1976490988530565122.html",
+      "title": "西安市创新联合体组建及管理办法",
+      "source_id": "xian-kjj-policies",
+      "source_name": "西安市科学技术局 · 政策文件",
+      "region": "西安市",
+      "published_date": "2025-09-30",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "1.牵头单位应为在西安市注册登记满2年，具有独立法人资格的省市产业链龙头骨干企业、科技领军企业，重点支持市级重点产业链“链主”企业；"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "4c9ac81ef38b3784a10c",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/1960896866839195649.html",
+      "title": "西安市概念验证中心建设和运行管理办法",
+      "source_id": "xian-kjj-policies",
+      "source_name": "西安市科学技术局 · 政策文件",
+      "region": "西安市",
+      "published_date": "2025-08-22",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "第十一条 对申请创建概念验证中心并正式立项的，市科技局按投入的30%，以前资助方式择优给予主体单位最高200万元建设经费支持",
+        "（一）具有独立法人资格的高等院校、科研院所、医疗卫生机构和企业等，在西安注册且正常经营满3年，未发生司法、行政机关认定的严重违法失信行为"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "b136683696ffeda4a8e2",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/1960894465123569665.html",
+      "title": "西安市中试验证平台建设和运行管理办法",
+      "source_id": "xian-kjj-policies",
+      "source_name": "西安市科学技术局 · 政策文件",
+      "region": "西安市",
+      "published_date": "2025-08-22",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "第十一条 对申请创建中试平台并正式立项的，市科技局按实际投入的30%，以前资助方式择优给予主体单位最高200万元建设经费支持",
+        "（一）具有独立法人资格的企业或科研院所，在西安注册且正常经营满3年，未发生司法、行政机关认定的严重违法失信行为"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "c3f634014cb5ff245b0d",
+      "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/1962411960928567298.html",
+      "title": "西安市新型研发机构建设管理办法",
+      "source_id": "xian-kjj-policies",
+      "source_name": "西安市科学技术局 · 政策文件",
+      "region": "西安市",
+      "published_date": "2025-08-14",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "对考评不合格的新型研发机构给予2年整改期，整改后复评仍不合格的，取消其市级新型研发机构资格",
+        "第四条 本办法所称的新型研发机构，主要是指围绕我市主导产业和新型产业规划布局，以科技成果转化为主要任务，多元化投资、市场化运行、现代化管理且具有可持续发展能力的独立法人组织"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-28T14:14:16+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "88564d58eff8a24af14a",
+      "url": "https://czt.shaanxi.gov.cn/sy/bmdt/tzgg/202610/t20261013_3703016.html",
+      "title": "陕西省财政厅关于公开征求陕西省环境保护税适用税额意见的公告",
+      "source_id": "shaanxi-czt",
+      "source_name": "陕西省财政厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-10-13",
+      "publication_basis": "页面元数据",
+      "category": "政策征求意见",
+      "highlights": [
+        "为深入贯彻习近平生态文明思想，全面落实党的二十届三中全会关于完善绿色税制的部署要求以及《中华人民共和国环境保护税法》《征收挥发性有机物环境保护税试点实施办法》（财税〔2026〕50号）等规定，更好发挥环境保护税绿色调控作用，拟明确我省挥发性有机物环境保护税适用税额，并调整大气污染物、水污染物环境保护税适用税额，具体公告如下："
+      ],
+      "dates": [
+        {
+          "date": "2026-08-04",
+          "kind": "补正截止",
+          "year_inferred": true,
+          "evidence": "三、水污染物环境保护税适用税额标准调整为每污染当量8.4元"
+        },
+        {
+          "date": "2026-10-14",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "按照制发国家规范性文件相关规定，自2026年10月14日至2026年11月12日（30天）公开征求意见，可通过信函、电子邮件、传真等方式提出意见和建议"
+        },
+        {
+          "date": "2026-11-12",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "按照制发国家规范性文件相关规定，自2026年10月14日至2026年11月12日（30天）公开征求意见，可通过信函、电子邮件、传真等方式提出意见和建议"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "b234247cbafb9020f7af",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202610/t20261010_3702248.html",
+      "title": "陕西省2026年度先进级智能工厂拟培育名单公示",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-10-10",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "公示时间：2026年10月10日至2026年10月15日"
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "公示时间：2026年10月10日至2026年10月15日"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "附件：陕西省2026年度先进级智能工厂拟培育名单（237家）.xlsx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202610/P020261010582383901050.xlsx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "e12eeedfdfa93d4c59f5",
+      "url": "https://sndrc.shaanxi.gov.cn/sy/xwxx/gggg/202610/t20261010_3702178.html",
+      "title": "关于陕西省先进制造业和现代服务业融合发展典型案例的公示",
+      "source_id": "shaanxi-fgw",
+      "source_name": "陕西省发展和改革委员会 · 公告公示",
+      "region": "陕西省",
+      "published_date": "2026-10-10",
+      "publication_basis": "原文URL日期，待核实",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "9e51784b3314e195867e",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202610/t20261009_3701585.html",
+      "title": "关于开展2026年度国家级绿色制造名单推荐及动态管理工作的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-10-09",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [
+        "一、申报条件"
+      ],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "附件1 绿色供应链领航企业评价要求.xlsx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202610/P020261009345736250264.xlsx"
+        },
+        {
+          "title": "附件2 绿色工业园区评价要求.xlsx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202610/P020261009345736412705.xlsx"
+        },
+        {
+          "title": "附件3 各市（区）工业和信息化主管部门推荐汇总表.xlsx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202610/P020261009345736525051.xlsx"
+        },
+        {
+          "title": "附件4 各市（区）绿色制造业务联系表.xlsx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202610/P020261009345736637414.xlsx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "6e619e050565497b6155",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202610/t20261008_3701411.html",
+      "title": "关于2026年度享受增值税加计抵减政策的集成电路企业清单制定工作的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-10-08",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "503546a9e3cf5817653a",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260930_3700633.html",
+      "title": "关于征集《先进技术产品转化应用目录（2026年度）》技术产品的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-30",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "其中，企业类申报主体为在中华人民共和国境内注册，具有独立法人资格，具有较强的经济实力、技术研发和融合创新能力，且近2年信用记录良好"
+      ],
+      "dates": [
+        {
+          "date": "2026-11-20",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "（三）请各推荐单位于2026年11月20日前完成信息审核汇总，出具书面推荐意见，将《技术产品信息采集表》、《信息审查意见表》、《汇总表》（见附件1、2、3）纸质版材料（加盖公章，一式3份）和导出的电子版光盘（1份）寄送省工信厅，收件地址：陕西省西安市新城区省政府前大楼4-109，邮编：710006，收件人及电话：刘阁婷，[电话略]，信封注明《目录》"
+        },
+        {
+          "date": "2026-04-10",
+          "kind": "项目条件日期",
+          "year_inferred": true,
+          "evidence": "（三）请各推荐单位于2026年11月20日前完成信息审核汇总，出具书面推荐意见，将《技术产品信息采集表》、《信息审查意见表》、《汇总表》（见附件1、2、3）纸质版材料（加盖公章，一式3份）和导出的电子版光盘（1份）寄送省工信厅，收件地址：陕西省西安市新城区省政府前大楼4-109，邮编：710006，收件人及电话：刘阁婷，[电话略]，信封注明《目录》"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "附件1 技术产品信息采集表.xls",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260930760619989819.xls"
+        },
+        {
+          "title": "附件2 技术产品信息审查意见表.xls",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260930760620174316.xls"
+        },
+        {
+          "title": "附件3 技术产品信息汇总表.xls",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260930760620318113.xls"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "036a1c73c52fe7720906",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260930_3700631.html",
+      "title": "关于陕西省2026年第6批拟入库科技型中小企业名单的公示",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-30",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-09-30",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "根据《科技型中小企业评价办法》（国科发政〔2017〕115号）和《科技型中小企业评价服务工作指引》（国科火字〔2022〕67号）有关规定，现将陕西省2026年第6批4411家拟入库科技型中小企业名单予以公示（详见附件），公示时间为2026年9月30日起至2026年10月19日止"
+        },
+        {
+          "date": "2026-10-19",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "根据《科技型中小企业评价办法》（国科发政〔2017〕115号）和《科技型中小企业评价服务工作指引》（国科火字〔2022〕67号）有关规定，现将陕西省2026年第6批4411家拟入库科技型中小企业名单予以公示（详见附件），公示时间为2026年9月30日起至2026年10月19日止"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "附件：陕西省2026年第6批拟入库科技型中小企业名单.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260930756262270172.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "49bdf6202ec8caaec341",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260930_3700211.html",
+      "title": "关于征集陕西省“人工智能+制造”应用场景的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-30",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "（一）申报主体须在陕西省内注册、具有独立法人资格，财务状况良好，无违法违规行为，在信誉和社会责任等方面无不良记录，愿意主动配合开展现场调研和宣传总结，积极推广经验"
+      ],
+      "dates": [
+        {
+          "date": "2026-10-26",
+          "kind": "主管部门报送",
+          "year_inferred": false,
+          "evidence": "（三）各市（区）工业和信息化主管部门于2026年10月26日前将申报资料和推荐文件（含汇总表）报送至省工业和信息化厅信息化产业发展处，电子版材料发送至指定邮箱"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "1．陕西省“人工智能+制造”应用场景申报表.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260930362566286672.docx"
+        },
+        {
+          "title": "2．陕西省“人工智能+制造”应用场景汇总表.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260930362566445872.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "76c1fe4c547bbf27521a",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260924_3698782.html",
+      "title": "关于开展2026年度陕西省重点培育雏鹰企业征集工作的通知",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-24",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "3.上一年度营业收入不超过2000万元；",
+        "一、申报条件"
+      ],
+      "dates": [
+        {
+          "date": "2021-01-01",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "1.省内2021年1月1日（含）以后注册成立的科技型企业"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "073dd2842471197658ef",
+      "url": "https://sndrc.shaanxi.gov.cn/zfxxgk/zc/fgwj/sfzggwwj/2026/202609/t20260924_3698925.html",
+      "title": "陕西省发展和改革委员会关于公布陕西省“人工智能+”重点产品（第一批）的通知",
+      "source_id": "shaanxi-fgw",
+      "source_name": "陕西省发展和改革委员会 · 公告公示",
+      "region": "陕西省",
+      "published_date": "2026-09-24",
+      "publication_basis": "原文URL日期，待核实",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "陕西省“人工智能+”重点产品（第一批）",
+          "url": "https://sndrc.shaanxi.gov.cn/zfxxgk/zc/fgwj/sfzggwwj/2026/202609/P020260928519504478252.pdf"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "e829c0eb92783f0cc34e",
+      "url": "https://sndrc.shaanxi.gov.cn/zfxxgk/zc/fgwj/sfzggwwj/2026/202609/t20260924_3698930.html",
+      "title": "陕西省发展和改革委员会关于公布陕西省“人工智能+”典型案例（第一批）的通知",
+      "source_id": "shaanxi-fgw",
+      "source_name": "陕西省发展和改革委员会 · 公告公示",
+      "region": "陕西省",
+      "published_date": "2026-09-24",
+      "publication_basis": "原文URL日期，待核实",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "陕西省“人工智能+”典型案例（第一批）",
+          "url": "https://sndrc.shaanxi.gov.cn/zfxxgk/zc/fgwj/sfzggwwj/2026/202609/P020260928513903281069.pdf"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "b6f96c21644c47873ca1",
+      "url": "https://sndrc.shaanxi.gov.cn/sy/xwxx/gggg/202609/t20260921_3697613.html",
+      "title": "关于陕西省“人工智能+”典型案例、重点产品（第一批）的公示",
+      "source_id": "shaanxi-fgw",
+      "source_name": "陕西省发展和改革委员会 · 公告公示",
+      "region": "陕西省",
+      "published_date": "2026-09-21",
+      "publication_basis": "原文URL日期，待核实",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "f38f22929e72efa84bfc",
+      "url": "https://sndrc.shaanxi.gov.cn/zfxxgk/zc/fgwj/sfzggwwj/2026/202609/t20260921_3697289.html",
+      "title": "陕西省发展和改革委员会 陕西省财政厅关于做好2026年陕西省先进制造业和现代服务业融合发展专项项目申报工作的通知",
+      "source_id": "shaanxi-fgw",
+      "source_name": "陕西省发展和改革委员会 · 公告公示",
+      "region": "陕西省",
+      "published_date": "2026-09-21",
+      "publication_basis": "原文URL日期，待核实",
+      "category": "申报与征集",
+      "highlights": [
+        "项目未获得其他省级专项补助资金支持，已经申报本年度其他省级专项资金的项目不得申报",
+        "二、申报条件"
+      ],
+      "dates": [
+        {
+          "date": "2026-10-15",
+          "kind": "主管部门报送",
+          "year_inferred": true,
+          "evidence": "市级发展改革部门、财政部门对各县级发展改革部门、财政部门报送项目审核后，将申报项目的请示以及申报项目汇总表、项目绩效目标表、项目资金申请报告一式4份（含电子版）于10月15日前分别报送省发展改革委（3份）、省财政厅（1份）"
+        },
+        {
+          "date": "2027-12-31",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "项目完工时间原则上需在2027年12月31日之前，确需延期的，需提前3个月向省发展改革委申请，延期最长不超过1年"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "dd4e1cf57e0ac4570441",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260918_3696667.html",
+      "title": "陕西省科学技术厅关于发布第四批概念验证和中试平台能力清单的通知",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-18",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "1.第四批陕西省概念验证类平台能力清单.docx",
+          "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/P020260918574699754109.docx"
+        },
+        {
+          "title": "2.第四批陕西省中试基地类平台能力清单.docx",
+          "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/P020260918574699912431.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "93a8ae34ba717dbcce42",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260918_3696459.html",
+      "title": "关于2026年度享受增值税加计抵减政策的先进制造业企业名单制定工作有关事项的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-17",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [
+        "一、申报条件"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "20425e0ebff6a0804cfe",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260916_3693008.html",
+      "title": "关于组织开展2026年绿色能源应用典型场景与案例征集工作的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-16",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "二、申报条件"
+      ],
+      "dates": [
+        {
+          "date": "2026-09-30",
+          "kind": "主管部门报送",
+          "year_inferred": false,
+          "evidence": "各市（区）工业和信息化主管部门负责对辖区内申报案例进行审核，并对申报资料的真实性、准确性、合规性负责，出具正式推荐意见，填写工业和信息化领域绿色能源应用典型场景与案例推荐汇总表（附件），于2026年9月30日前将推荐文件及全套申报材料（附电子版PDF、Word两种格式）报送至省工信厅节能综合利用处，各征集方向推荐案例数量不超过3个"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "附件：工业和信息化领域绿色能源应用典型场景与案例推荐汇总表.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260916407734675080.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "f70e39109bc0977d3f2a",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260916_3693002.html",
+      "title": "关于开展人工智能应用服务商培育专项行动的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-16",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-11-16",
+          "kind": "主管部门报送",
+          "year_inferred": false,
+          "evidence": "（一）各市（区）工业和信息化主管部门汇总服务商档案，形成本市（区）服务商资源池（附件2），按照相关报送要求（附件3），于2026年11月16日前将资源池信息报送至省工业和信息化厅信息化产业发展处，定期更新服务商资源池内容"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "83e1c41b362af702f8b8",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260916_3695475.html",
+      "title": "2026年陕西省新型研发机构拟备案名单公示",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-16",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-09-16",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "现予以公示，公示期2026年9月16日18:00至9月23日18:00"
+        },
+        {
+          "date": "2026-09-23",
+          "kind": "公示或征求意见",
+          "year_inferred": true,
+          "evidence": "现予以公示，公示期2026年9月16日18:00至9月23日18:00"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "05e2864b69ac2288b143",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260916_3695390.html",
+      "title": "陕西省科学技术厅关于征集2026年度陕西省区域创新能力提升项目的通知",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-16",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "每个支持方向下设若干创新点，原则上每个创新点支持经费不超过100万元",
+        "项目负责人按照指南要求在线填写申请书并提交相关证明材料，经申报单位、推荐单位逐级审核，生成电子申报材料（带有受理编号、条形码和水印），电子申报材料生成后不予退回和修改"
+      ],
+      "dates": [
+        {
+          "date": "2025-09-15",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "牵头申报单位应为省内具有独立法人资格的高校、科研院所和企事业单位等，单位注册（登记）时间在2025年9月15日前，运行管理规范，信用良好，具有较强的科技研发能力和条件"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "附件-2026年区域创新能力提升项目申报指南.docx",
+          "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/P020260918628323404092.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "6c63798317268f6d9a89",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260916_3693130.html",
+      "title": "关于开展2026年度陕西省技术经理人认定及优秀技术经理人选树工作的通知",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-16",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "一、申报对象"
+      ],
+      "dates": [
+        {
+          "date": "2026-10-16",
+          "kind": "企业申报截止",
+          "year_inferred": false,
+          "evidence": "此次认定申报和选树工作采取线上报送,申报时间截止2026年10月16日"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "1.陕西省技术经理人认定选树申请表.docx",
+          "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/P020260916525419925275.docx"
+        },
+        {
+          "title": "2.个人承诺书.docx",
+          "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/P020260916525420119782.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "aa8013bcbf3f9d49670b",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260915_3692386.html",
+      "title": "陕西省科学技术厅关于申报2026年度第二批“科技副总”支持项目的通知",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-15",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "省科技厅将组织专家对申报的“科技副总”支持项目进行评审，通过评审认定的项目，给予5万元财政科研经费支持",
+        "（一）项目申报单位"
+      ],
+      "dates": [
+        {
+          "date": "2025-08-25",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "项目申报单位应为省内具有独立法人资格且运行满一年以上（2025年8月25日前注册）的企业，有持续研发投入，运行管理规范"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "46812e965b3eb3cc6228",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260914_3690021.html",
+      "title": "关于公开征求《陕西省智能工厂梯度培育管理实施细则（暂行）（征求意见稿）》意见的公告",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-12",
+      "publication_basis": "页面元数据",
+      "category": "政策征求意见",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-10-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "如有意见建议，请于2026年10月10日前，填写《征求意见反馈信息表》反馈至sxgxtzbc @126.com，并注明单位、姓名及联系方式"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "1.《陕西省智能工厂梯度培育管理实施细则（暂行）》（征求意见稿）.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260914338050858400.docx"
+        },
+        {
+          "title": "2. 征求意见反馈信息表.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260914338050983986.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "dba7224d801d1a994010",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260910_3677601.html",
+      "title": "陕西省科学技术厅关于拟提名2026年度省科学技术奖有关项目的公示",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-10",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-09-10",
+          "kind": "公示或征求意见",
+          "year_inferred": false,
+          "evidence": "公示时间为2026年9月10日至14日"
+        }
+      ],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "7d7bac188df4eea8edd0",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260909_3676644.html",
+      "title": "关于延长2026年度科技型中小企业评价申报期限的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-09",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "be539842b26e5a4347ad",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260908_3675389.html",
+      "title": "关于开展2026年度第二期中级技术经理人培训工作的通知",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-08",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [],
+      "dates": [
+        {
+          "date": "2026-09-10",
+          "kind": "项目条件日期",
+          "year_inferred": false,
+          "evidence": "请培训学员登录陕西省技术经理人数字化服务平台（链接：https://jsjlr.sstrc.com/sys/toLogin）完成培训报名，报名截止时间2026年9月10日"
+        }
+      ],
+      "attachments": [
+        {
+          "title": "1.培训日程安排.docx",
+          "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/P020260908522421448233.docx"
+        },
+        {
+          "title": "2.中级技术经理人培训报名推荐表.docx",
+          "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/P020260908522421633953.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "cb69aafbee66d2f1e843",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260903_3673829.html",
+      "title": "陕西省科学技术厅关于2026年度陕西科技创新与新质生产力研究院“揭榜挂帅”软科学研究课题揭榜结果的公示",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-03",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "027500f1482287fe7fa2",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/t20260902_3673409.html",
+      "title": "关于征集中小企业服务机构构建服务智慧地图的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-02",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "1．服务领域分类.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260902334627499329.docx"
+        },
+        {
+          "title": "2．服务机构信息采集表.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260902334627682891.docx"
+        },
+        {
+          "title": "3．服务智慧地图展示声明.docx",
+          "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202609/P020260902334627816328.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:46:07+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "52b555a9b73d22721989",
+      "url": "https://kjt.shaanxi.gov.cn/kjdt/tzgg/202609/t20260902_3673415.html",
+      "title": "陕西省科学技术厅关于印发《陕西省雏鹰企业培育工作指引（试行）》的通知",
+      "source_id": "shaanxi-kjt",
+      "source_name": "陕西省科学技术厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-09-02",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "2.企业员工原则上不超过50人，上一年度营业收入原则上不超过2000万元"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "483ca251448aea30dd26",
+      "url": "https://gxt.shaanxi.gov.cn/xw/tzgg/202608/t20260827_3670402.html",
+      "title": "关于组织开展国家重点研发计划“高端科研仪器研制”重点专项2026年度（第一批）项目申报工作的通知",
+      "source_id": "shaanxi-gxt",
+      "source_name": "陕西省工业和信息化厅 · 通知公告",
+      "region": "陕西省",
+      "published_date": "2026-08-27",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [
+        "项目申报单位按照工信部通知要求，通过国家科技管理信息系统公共服务平台（http://service.most.gov.cn）填写并提交项目申报书"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:49:39+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:49:39+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": []
+    },
+    {
+      "id": "471b123255bcb99f0350",
+      "url": "https://www.shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/gfxwj/202608/t20260820_3668305.html",
+      "title": "陕西省人民政府关于印发推进服务业扩能提质若干措施的通知",
+      "source_id": "shaanxi-government",
+      "source_name": "陕西省人民政府 · 政策文件",
+      "region": "陕西省",
+      "published_date": "2026-08-20",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "加快科技成果中试放大和验证熟化，对符合条件的概念验证中心和中试基地，分别给予最高200万元和500万元的资金支持"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "f820ed10bcabc6a88624",
+      "url": "https://www.shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/nszfgz/202505/t20250523_3521961.html",
+      "title": "陕西省人民政府关于修改 《陕西省科学技术奖励办法》的决定",
+      "source_id": "shaanxi-government",
+      "source_name": "陕西省人民政府 · 政策文件",
+      "region": "陕西省",
+      "published_date": "2025-05-23",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "一、将第二条修改为：“本省设立陕西省科学技术奖（以下简称省科技奖），分为最高科学技术奖、自然科学奖、技术发明奖、科学技术进步奖、创新驱动秦创原奖和国际科学技术合作奖"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    },
+    {
+      "id": "409ad7f50442206169e7",
+      "url": "https://www.shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/gfxwj/202409/t20240914_2608145.html",
+      "title": "陕西省人民政府关于印发支持上海合作组织农业技术交流培训示范基地高质量发展若干政策措施的通知",
+      "source_id": "shaanxi-government",
+      "source_name": "陕西省人民政府 · 政策文件",
+      "region": "陕西省",
+      "published_date": "2024-09-14",
+      "publication_basis": "页面元数据",
+      "category": "政策措施与解读",
+      "highlights": [
+        "对在基地新设立的省级新型研发机构给予不超过200万元经费支持"
+      ],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-10-15T21:46:07+08:00",
+      "last_checked_at": "2026-10-15T21:49:39+08:00",
+      "last_changed_at": "2026-10-15T21:46:07+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": []
+    }
+  ],
+  "report_url": "https://business-unit-for-enterprise-service.github.io/shaanxi-policy-monitor/daily/2026-10-28.html"
+}
