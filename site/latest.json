@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "report_type": "shaanxi-policy-daily",
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T14:56:26+08:00",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T15:20:04+08:00",
   "timezone": "Asia/Shanghai",
   "count_basis": "discovery_and_changes_on_report_date",
   "counts": {
-    "discovered": 0,
+    "discovered": 2,
     "updated": 0,
     "baseline": 0,
-    "total": 65,
+    "total": 67,
     "urgent": 0,
     "sources": 8,
-    "healthy": 3,
-    "partial": 0,
+    "healthy": 2,
+    "partial": 1,
     "failed": 5
   },
   "coverage": "监测已列明官方栏目的首页及待处理队列；不代表全省全部政策。首次建档不计为当日新政策。",
@@ -27,7 +27,7 @@
       "checked": 9,
       "failed": 0,
       "pending": 0,
-      "last_success_at": "2026-11-04T14:56:26+08:00",
+      "last_success_at": "2026-11-05T15:20:04+08:00",
       "message": "已检查栏目首页；文章按预算轮换复查"
     },
     {
@@ -36,10 +36,10 @@
       "url": "https://xakj.xa.gov.cn/kjdt/tzgg/1.html",
       "region": "西安市",
       "status": "ok",
-      "checked": 12,
+      "checked": 11,
       "failed": 0,
       "pending": 0,
-      "last_success_at": "2026-11-04T14:56:26+08:00",
+      "last_success_at": "2026-11-05T15:20:04+08:00",
       "message": "已检查栏目首页；文章按预算轮换复查"
     },
     {
@@ -47,12 +47,12 @@
       "name": "西安市科学技术局 · 政策文件",
       "url": "https://xakj.xa.gov.cn/zwgk/zcwj/1.html",
       "region": "西安市",
-      "status": "ok",
-      "checked": 8,
-      "failed": 0,
-      "pending": 0,
+      "status": "partial",
+      "checked": 7,
+      "failed": 1,
+      "pending": 1,
       "last_success_at": "2026-11-04T14:56:26+08:00",
-      "message": "已检查栏目首页；文章按预算轮换复查"
+      "message": "部分文章未能读取：Network/TLS failure: ReadTimeout"
     },
     {
       "id": "shaanxi-gxt",
@@ -139,6 +139,63 @@
   ],
   "policies": [
     {
+      "id": "6fc3da8c8c35d840f4dc",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2118234649803644930.html",
+      "title": "关于2026年第24批科技金融业务推荐企业名单的公示",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-11-05",
+      "publication_basis": "页面元数据",
+      "category": "结果公示与认定",
+      "highlights": [],
+      "dates": [],
+      "attachments": [],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-11-05T15:20:04+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
+      "last_changed_at": "2026-11-05T15:20:04+08:00",
+      "deadline": {
+        "date": null,
+        "status": "不适用",
+        "evidence": ""
+      },
+      "changes": [
+        "discovered"
+      ]
+    },
+    {
+      "id": "7f23c8bb32818aa63c5c",
+      "url": "https://xakj.xa.gov.cn/kjdt/tzgg/2117986855055056897.html",
+      "title": "西安市科学技术局关于征集科技创新贷款支持研发投入水平较高民营中小企业的通知",
+      "source_id": "xian-kjj-notices",
+      "source_name": "西安市科学技术局 · 通知公告",
+      "region": "西安市",
+      "published_date": "2026-11-04",
+      "publication_basis": "页面元数据",
+      "category": "申报与征集",
+      "highlights": [],
+      "dates": [],
+      "attachments": [
+        {
+          "title": "统计上大中小微型企业划分办法(2017).docx",
+          "url": "https://xakj.xa.gov.cn/web_files/xakj/file/2026/11/05/202611051146545937243.docx"
+        }
+      ],
+      "snippet_suppressed": false,
+      "first_seen_at": "2026-11-05T15:20:04+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
+      "last_changed_at": "2026-11-05T15:20:04+08:00",
+      "deadline": {
+        "date": null,
+        "status": "截止时间待核实",
+        "evidence": "未识别到明确的企业申报截止日期，请查原文或附件"
+      },
+      "changes": [
+        "discovered"
+      ]
+    },
+    {
       "id": "1c95dbaf385c06fc7730",
       "url": "https://xakj.xa.gov.cn/zwgk/zcwj/bmwj/2116077309047980033.html",
       "title": "西安市科技专家库管理办法",
@@ -156,7 +213,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-31T14:14:08+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-31T14:14:08+08:00",
       "deadline": {
         "date": null,
@@ -200,7 +257,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-29T14:24:40+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-30T14:23:20+08:00",
       "deadline": {
         "date": null,
@@ -226,7 +283,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-29T14:24:40+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-29T14:24:40+08:00",
       "deadline": {
         "date": null,
@@ -268,7 +325,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-30T14:23:20+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-30T14:23:20+08:00",
       "deadline": {
         "date": null,
@@ -299,7 +356,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-28T14:14:16+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-28T14:14:16+08:00",
       "deadline": {
         "date": null,
@@ -323,7 +380,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-28T14:14:16+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-28T14:14:16+08:00",
       "deadline": {
         "date": null,
@@ -362,7 +419,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-26T13:14:05+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-26T13:14:05+08:00",
       "deadline": {
         "date": null,
@@ -445,7 +502,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-23T13:17:35+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-23T13:17:35+08:00",
       "deadline": {
         "date": null,
@@ -469,7 +526,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-22T13:18:45+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-22T13:18:45+08:00",
       "deadline": {
         "date": null,
@@ -493,7 +550,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-20T13:12:56+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-20T13:12:56+08:00",
       "deadline": {
         "date": null,
@@ -522,7 +579,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -568,7 +625,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -601,7 +658,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -630,7 +687,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -667,7 +724,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-17T09:24:53+08:00",
       "deadline": {
         "date": null,
@@ -709,7 +766,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -830,7 +887,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-10-29T14:24:40+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -992,7 +1049,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -1092,7 +1149,7 @@
       ],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": "2026-09-25",
@@ -1120,7 +1177,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -1147,7 +1204,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -1173,7 +1230,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -1199,7 +1256,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:46:07+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:46:07+08:00",
       "deadline": {
         "date": null,
@@ -1252,7 +1309,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:49:39+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:49:39+08:00",
       "deadline": {
         "date": null,
@@ -1279,7 +1336,7 @@
       "attachments": [],
       "snippet_suppressed": false,
       "first_seen_at": "2026-10-15T21:49:39+08:00",
-      "last_checked_at": "2026-11-04T14:56:26+08:00",
+      "last_checked_at": "2026-11-05T15:20:04+08:00",
       "last_changed_at": "2026-10-15T21:49:39+08:00",
       "deadline": {
         "date": null,
@@ -2392,5 +2449,5 @@
       "changes": []
     }
   ],
-  "report_url": "https://business-unit-for-enterprise-service.github.io/shaanxi-policy-monitor/daily/2026-11-04.html"
+  "report_url": "https://business-unit-for-enterprise-service.github.io/shaanxi-policy-monitor/daily/2026-11-05.html"
 }
