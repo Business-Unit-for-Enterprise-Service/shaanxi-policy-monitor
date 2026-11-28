@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "report_type": "shaanxi-policy-daily",
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T17:00:10+08:00",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T16:23:13+08:00",
   "timezone": "Asia/Shanghai",
   "count_basis": "discovery_and_changes_on_report_date",
   "counts": {
-    "discovered": 1,
-    "updated": 1,
+    "discovered": 0,
+    "updated": 0,
     "baseline": 0,
     "total": 78,
-    "urgent": 1,
+    "urgent": 0,
     "sources": 8,
-    "healthy": 3,
+    "healthy": 0,
     "partial": 0,
-    "failed": 5
+    "failed": 8
   },
   "coverage": "监测已列明官方栏目的首页及待处理队列；不代表全省全部政策。首次建档不计为当日新政策。",
   "sources": [
@@ -23,36 +23,36 @@
       "name": "西安市工业和信息化局 · 通知公告",
       "url": "https://gxj.xa.gov.cn/gzdt/tzgg/1.html",
       "region": "西安市",
-      "status": "ok",
-      "checked": 11,
+      "status": "failed",
+      "checked": 0,
       "failed": 0,
       "pending": 0,
       "last_success_at": "2026-11-27T17:00:10+08:00",
-      "message": "已检查栏目首页；文章按预算轮换复查"
+      "message": "Network/TLS failure: ConnectTimeout"
     },
     {
       "id": "xian-kjj-notices",
       "name": "西安市科学技术局 · 通知公告",
       "url": "https://xakj.xa.gov.cn/kjdt/tzgg/1.html",
       "region": "西安市",
-      "status": "ok",
-      "checked": 10,
+      "status": "failed",
+      "checked": 0,
       "failed": 0,
       "pending": 0,
       "last_success_at": "2026-11-27T17:00:10+08:00",
-      "message": "已检查栏目首页；文章按预算轮换复查"
+      "message": "Network/TLS failure: ConnectTimeout"
     },
     {
       "id": "xian-kjj-policies",
       "name": "西安市科学技术局 · 政策文件",
       "url": "https://xakj.xa.gov.cn/zwgk/zcwj/1.html",
       "region": "西安市",
-      "status": "ok",
-      "checked": 8,
+      "status": "failed",
+      "checked": 0,
       "failed": 0,
       "pending": 0,
       "last_success_at": "2026-11-27T17:00:10+08:00",
-      "message": "已检查栏目首页；文章按预算轮换复查"
+      "message": "Network/TLS failure: ConnectTimeout"
     },
     {
       "id": "shaanxi-gxt",
@@ -180,9 +180,7 @@
         "status": "不适用",
         "evidence": ""
       },
-      "changes": [
-        "updated"
-      ]
+      "changes": []
     },
     {
       "id": "da0982af4f8c38e4ce4b",
@@ -240,9 +238,7 @@
         "status": "不适用",
         "evidence": ""
       },
-      "changes": [
-        "discovered"
-      ]
+      "changes": []
     },
     {
       "id": "287123255384bf18addc",
@@ -523,7 +519,7 @@
       "last_changed_at": "2026-11-18T15:53:54+08:00",
       "deadline": {
         "date": "2026-11-27",
-        "status": "今日截止，时点需核实",
+        "status": "已过原文截止日期",
         "evidence": "申报单位须于11月27日前通过“数转系统”提交评测验收申请，根据系统提示填报提交相关资料",
         "year_inferred": true
       },
@@ -2899,5 +2895,5 @@
       "changes": []
     }
   ],
-  "report_url": "https://business-unit-for-enterprise-service.github.io/shaanxi-policy-monitor/daily/2026-11-27.html"
+  "report_url": "https://business-unit-for-enterprise-service.github.io/shaanxi-policy-monitor/daily/2026-11-28.html"
 }
